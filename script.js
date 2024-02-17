@@ -6,7 +6,7 @@ let arr = [
   { id: 3, name: "karen", age: "19", marks: 35 },
 ];
 
-function PrintStudentswithMap(arr) {
+function PrintStudentswithMap() {
   //Write your code here , just console.log
   arr.map(student => {
         if (student.marks > 50) {
@@ -16,7 +16,7 @@ function PrintStudentswithMap(arr) {
 }
 // PrintStudentswithMap(arr);
 
-function PrintStudentsbyForEach(arr) {
+function PrintStudentsbyForEach() {
   //Write your code here , just console.log
   arr.forEach(student => {
     if (student.marks > 50) {
@@ -27,7 +27,7 @@ function PrintStudentsbyForEach(arr) {
 // PrintStudentsbyForEach(arr);
 
 
-function addData(arr) {
+function addData() {
   //Write your code here, just console.log
  let newObj = {id:4,name:"susan",age:"20",marks:45};
  arr.push(newObj);
@@ -35,7 +35,7 @@ function addData(arr) {
 }
 // addData(arr);
 
-function removeFailedStudent(arr) {
+function removeFailedStudent() {
   //Write your code here, just console.log
   for (let i = arr.length - 1; i >= 0; i--) {
     if (arr[i].marks < 50) {
@@ -46,7 +46,7 @@ function removeFailedStudent(arr) {
 }
 // removeFailedStudent(arr);
 
-function concatenateArray(arr) {
+function concatenateArray() {
   //Write your code here, just console.log
   
 let arr2 = [
